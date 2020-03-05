@@ -1,3 +1,14 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, 
+h2,
+h3,
+h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -24,6 +35,8 @@ header {
 }
 
 .fixed-nav {
+  font-family: 'Chakra Petch', sans-serif;
+/* font-family: 'Montserrat', sans-serif; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -106,9 +119,11 @@ main {
   background-image: url(../imgs/sec1/grid1-item3.jpg);
 }
 
-.latest-news {
-  background-color: lightpink;
+.latest-news-title {
+  color: #FF4422;
+  font-size: 28;
 }
+
 
 .latest-news-container {
   display: grid;
@@ -117,8 +132,18 @@ main {
 }
 
 .latest-new-art {
-  border: 1px solid blue;
   padding: 10px;
+}
+
+.latest-new-art span{
+  font-size: 13px;
+  color: #AAA;
+  padding: 5px 0;
+}
+
+.latest-new-art h3{
+  font-size: 16px;
+  padding: 5px 0;
 }
 
 .latest-new-art img{
@@ -135,11 +160,21 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #F42;
+  font-size: 28px;
+  height: 100px;
 }
 
 .latest-funding-title li {
   display: inline;
-  margin: 0 10px;
+  margin-left: 5px;
+  font-size: 16px;
+  padding-right: 5px;
+}
+
+.latest-funding-right li:first-child, 
+.latest-funding-right li:nth-child(2)  {
+  border-right: 1px solid;
 }
 
 .latest-funding-rounds {
@@ -158,6 +193,13 @@ main {
   height: 60px;
 
 }
+
+.latest-funding-column h3:first-of-type {
+ background-color: #F42;
+ color: #FFF;
+ height: 44px;
+}
+
 
 .categories {
   display: grid;
@@ -293,6 +335,12 @@ main {
 
   .latest-news-container {
     grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .latest-funding-title {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
   }
 
   .latest-funding-rounds {
