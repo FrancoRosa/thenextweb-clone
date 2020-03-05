@@ -104,9 +104,11 @@
   width: 100%;
 }
 
-.latest-funding-column img {
+ .latest-funding-column > img {
   float: left;
-  width: 20%;
+  width: 60px;
+  height: 60px;
+
 }
 
 .categories {
@@ -123,8 +125,15 @@
 
 .category-image {
   height: 276px;
-  background-color: gray;
 }
+
+div.category-image:first-of-type{
+  background-image: url(../imgs/sec5/grid5-item1.png);
+}
+
+/* .category-image:nth-of-type(2){
+  background-image: url(../imgs/sec5/grid5-item2.png);
+} */
 
 .category-header {
   height: 96px;
