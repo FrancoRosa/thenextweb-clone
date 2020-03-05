@@ -56,7 +56,6 @@
 .latest-news-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  height: 300px;
   grid-gap: 10px;
 }
 
@@ -121,7 +120,6 @@
 
 .latest-deals {
   background-color: lightgoldenrodyellow;
-  height: 544px;
   margin: 20px;
 }
 
@@ -134,7 +132,6 @@
 .latest-deals-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  height: 300px;
   grid-gap: 10px;
 }
 
@@ -199,6 +196,14 @@
   .latest-funding .last-round {
     display: none;
   }
+
+  .categories {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .latest-deals-grid{
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -211,4 +216,26 @@
       grid-row: 1;
       height: 33%;
   }
+
+  .latest-news-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .latest-funding-rounds {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .categories {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .latest-deals-grid{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .latest-deals-grid img{
+    float:left;
+    width: 200px;
+  }
+
 }
