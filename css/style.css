@@ -125,19 +125,79 @@
   margin: 20px;
 }
 
+.latest-deals-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latest-deals-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 300px;
+  grid-gap: 10px;
+}
+
+.latest-deal img {
+  width: 100%;
+}
+
 .social-media {
   background-color: azure;
   height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-media li {
+  display: inline;
+  margin: 0 7px;
+}
+
+.social-media ul {
+  margin: 15px 0;
+}
+
+.social-media-links li {
+  text-align: center;
+}
+
+.social-media-links i {
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 50%;
 }
 
 .credits {
   background-color: lightcyan;
   height: 97px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.credits img {
+  height: 12px;
 }
 
 @media only screen and (max-width: 1024px) {
   .main-section {
       background-color: yellow;
+  }
+
+  .latest-news-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .latest-funding-rounds {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .latest-funding .last-round {
+    display: none;
   }
 }
 
@@ -146,6 +206,7 @@
       display: block;
       height: 1000px;
   }
+
   .main-section div {
       grid-row: 1;
       height: 33%;
