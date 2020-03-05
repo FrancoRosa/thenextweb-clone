@@ -46,7 +46,16 @@
 
 .news1 {
   grid-row: 1/3;
-  background-color: red;
+  /* background-color: red; */
+  background-image: url(../imgs/sec1/grid1-item1.jpg);
+}
+
+.news2 {
+  background-image: url(../imgs/sec1/grid1-item2.jpg);
+}
+
+.news3 {
+  background-image: url(../imgs/sec1/grid1-item3.jpg);
 }
 
 .latest-news {
@@ -59,10 +68,15 @@
   grid-gap: 10px;
 }
 
-.latest-news-art {
+.latest-new-art {
   border: 1px solid blue;
   padding: 10px;
 }
+
+.latest-new-art img{
+  width: 100%;
+}
+
 
 .latest-funding {
   background-color: lightyellow;
@@ -84,6 +98,15 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+}
+
+.latest-funding-column {
+  width: 100%;
+}
+
+.latest-funding-column img {
+  float: left;
+  width: 20%;
 }
 
 .categories {
