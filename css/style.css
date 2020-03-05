@@ -30,7 +30,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .static-nav li {
@@ -373,7 +372,7 @@ main {
 .category-list li:after {
   content: "";
   display: block;
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid #999;
   width: 100%;
   margin-left: -20px;
   padding-right: 20px;
@@ -389,7 +388,6 @@ main {
 }
 
 .latest-deals {
-  background-color: lightgoldenrodyellow;
   margin: 40px auto;
   max-width: 1052px;
 }
@@ -398,6 +396,15 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #F42;
+  font-size: 28px;
+  height: 80px;
+}
+
+.latest-deals-title a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #F42;
 }
 
 .latest-deals-grid {
@@ -410,18 +417,42 @@ main {
   width: 100%;
 }
 
+.latest-deal {
+  padding: 10px;
+}
+
+.latest-deal span{
+  font-size: 14px;
+  color: #555;
+  padding: 5px 0;
+}
+
+.latest-deal span:first-of-type{
+  font-size: 12px;
+  text-decoration: line-through;
+  color: #AAA;
+}
+
+.latest-deal h3{
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+
 .social-media {
-  background-color: azure;
-  height: 160px;
+  background-color:#131313;
+  height: 161px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: #AAA;
 }
 
 .social-media li {
   display: inline;
   margin: 0 7px;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .social-media ul {
@@ -433,18 +464,28 @@ main {
 }
 
 .social-media-links i {
-  font-size: 20px;
-  padding: 10px;
-  border: 1px solid red;
+  font-size: 16px;
+  padding: 14px;
   border-radius: 50%;
+  background-color: #333;
+  color: #FFF;
+  height: 40px;
+  width: 40px;
+  
 }
 
 .credits {
-  background-color: lightcyan;
+  background-color: #000;
   height: 97px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #AAA;
+}
+
+.credits span:nth-of-type(3){
+  color: #F42;
+  padding: 0 5px;
 }
 
 .credits img {
