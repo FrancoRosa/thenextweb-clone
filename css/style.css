@@ -528,7 +528,7 @@ main {
 }
 
 @media only screen and (max-width: 1023px) {
-  header img {
+  header img:first-of-type {
     display: block;
     float: left;
     height: 80px;
@@ -583,10 +583,14 @@ main {
 }
 
 @media only screen and (max-width: 767px) {
-  header img {
+  header img:first-of-type {
+    display: none;
+  }
+
+  header img:last-of-type {
     display: block;
     float: left;
-    height: 48px;
+    height: 80px;
   }
 
   .static-nav {
@@ -607,6 +611,10 @@ main {
   }
 
   .check-link {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: -1;
     height: 60px;
     justify-content: center;
     padding: 0;
@@ -636,7 +644,7 @@ main {
     margin-top: 20px;
   }
 
-  .latest-new-art img {
+  .latest-news-container .latest-new-art img {
     float: left;
     width: 75px;
     height: 75px;
@@ -670,7 +678,7 @@ main {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .latest-deals-grid img {
+  .latest-deals .latest-deals-grid img {
     float: left;
     width: 75px;
     height: 75px;
