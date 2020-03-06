@@ -68,7 +68,7 @@ header img {
   color: #333;
   text-decoration: none;
   line-height: 30px;
-  padding: 0 15px;
+  padding: 0 15px 0 160px;
   display: flex;
   align-items: center;
 }
@@ -260,7 +260,6 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  padding: 20px;
   margin: 40px auto;
   max-width: 1052px;
 }
@@ -282,12 +281,11 @@ main {
   height: 276px;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 10px;
 }
 
 .category-image span {
   color: #fff;
-  padding: 3px 5px;
+  padding: 3px 20px 20px;
   line-height: 15px;
   font-size: 12px;
 }
@@ -296,13 +294,14 @@ main {
   font-family: 'Chakra Petch', sans-serif;
   text-transform: uppercase;
   font-size: 14px;
+  padding: 3px 20px 3px;
 }
 
 .category .category-image h3 {
   color: #fff;
   font-size: 20px;
   line-height: 22px;
-  padding: 3px 0;
+  padding: 3px 20px 3px;
 }
 
 .categories .category:first-of-type .category-image {
@@ -516,7 +515,7 @@ main {
 }
 
 .credits img {
-  height: 12px;
+  height: 18px;
 }
 
 .fixed-nav > div > i:nth-of-type(2) {
@@ -530,6 +529,10 @@ main {
     height: 80px;
   }
 
+  .main-news h2 {
+    font-size: 20px;
+  }
+
   .news1 {
     background-image:
       linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(15, 15, 15, 0.66) 49%, rgba(15, 15, 15, 0.59) 59%, rgba(15, 15, 15, 0.54) 67%, rgba(15, 15, 15, 0.48) 75%, rgba(10, 10, 10, 0.41) 86%, rgba(99, 99, 99, 0.32) 98%, rgba(99, 99, 99, 0.31) 100%),
@@ -537,6 +540,14 @@ main {
     background-position: center, center;
     background-repeat: no-repeat;
     background-size: cover, cover;
+  }
+
+  .news3 .shares {
+    display: none;
+  }
+
+  .news1 h1 {
+    font-size: 40px;
   }
 
   .latest-news-container {
@@ -593,6 +604,7 @@ main {
   .check-link {
     height: 60px;
     justify-content: center;
+    padding: 0;
   }
 
 

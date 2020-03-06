@@ -1,9 +1,8 @@
 # thenextweb-clone
-In this project, we build a responsive website. We’ll be cloning The Next Web which uses media queries to gracefully degrade their site as the window size is reduced.
+In this project, we build a responsive website. We cloned The Next Web which uses media queries to gracefully degrade their site as the window size is reduced.
 
-## In this project we managed to do the following:
-1. Create navbar with fixed position
-1.1. Necessary element pop-up and disappear on change of screen size
+## Project features:
+1. Navbar with fixed position (necessary elements pop-up and disappear on change of screen size)
 2. The main section is using grid
 2.1. Background of the main sections are using gradient and background image
 2.2. Responsiveness is applied for smaller screens
@@ -15,8 +14,10 @@ In this project, we build a responsive website. We’ll be cloning The Next Web 
 
 ## Built With
 
-- HTML
-- CSS
+- HTML, CSS3
+- Flexbox, Grid
+- Fontawesome
+- Media Queries
 
 ## Screenshot
 
