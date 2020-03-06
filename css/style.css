@@ -69,6 +69,8 @@ header img {
   text-decoration: none;
   line-height: 30px;
   padding: 0 15px;
+  display: flex;
+  align-items: center;
 }
 
 main {
@@ -587,6 +589,12 @@ main {
     display: inline-block;
     color: #f42;
   }
+
+  .check-link {
+    height: 60px;
+    justify-content: center;
+  }
+
 
   .main-section {
     display: block;
