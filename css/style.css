@@ -63,7 +63,6 @@ header img {
 }
 
 .check-link {
-  display: block;
   background-color: #fd3;
   color: #333;
   text-decoration: none;
@@ -509,13 +508,13 @@ main {
   padding: 39px 0;
 }
 
-.credits span {
+.main-footer .credits span {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.credits span:nth-of-type(2) span {
+.main-footer .credits span:nth-of-type(2) span {
   color: #f42;
   padding: 0 5px;
 }
@@ -612,7 +611,6 @@ main {
     justify-content: center;
     padding: 0;
   }
-
 
   .main-section {
     display: block;
