@@ -393,7 +393,7 @@ main {
 .category-list li::after {
   content: "";
   display: block;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #edebea;
   width: 100%;
   margin-left: -20px;
   padding-right: 20px;
@@ -503,13 +503,19 @@ main {
   background-color: #000;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   color: #aaa;
   flex-wrap: wrap;
   padding: 39px 0;
 }
 
-.credits span:nth-of-type(3) {
+.credits span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.credits span:nth-of-type(2) span {
   color: #f42;
   padding: 0 5px;
 }
@@ -671,5 +677,13 @@ main {
     width: 75px;
     height: 75px;
     margin-right: 10px;
+  }
+
+  .credits {
+    display: block;
+  }
+
+  .credits > span {
+    line-height: 23px;
   }
 }
