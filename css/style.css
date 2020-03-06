@@ -494,6 +494,11 @@ main {
 
 .social-media-links li {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
 }
 
 .social-media-links i {
@@ -502,9 +507,6 @@ main {
   border-radius: 50%;
   background-color: #333;
   color: #FFF;
-  height: 40px;
-  width: 40px;
-  
 }
 
 .credits {
