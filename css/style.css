@@ -23,10 +23,6 @@ header img {
   display: none;
 }
 
-.fixed-nav > div > i:nth-of-type(2) {
-  display: none;
-}
-
 .static-nav {
   background-color: #131313;
   color: rgba(255, 255, 255, 0.6);
@@ -242,7 +238,7 @@ main {
   padding: 16px;
 }
 
-.latest-funding-column1 li {
+.latest-funding-rounds .latest-funding-column1 li {
   line-height: 25px;
   font-size: 13px;
 }
@@ -300,7 +296,7 @@ main {
   font-size: 14px;
 }
 
-.category-image h3 {
+.category .category-image h3 {
   color: #fff;
   font-size: 20px;
   line-height: 22px;
@@ -369,7 +365,7 @@ main {
   padding-left: 20px;
 }
 
-.category-header span {
+.category .category-header span {
   display: block;
   font-family: 'Chakra Petch', sans-serif;
   font-size: 13px;
@@ -377,9 +373,8 @@ main {
   padding: 4px 0;
 }
 
-.category-header h3 {
+.category .category-header h3 {
   font-size: 14px;
-
 }
 
 .category-list {
@@ -387,11 +382,10 @@ main {
   padding-left: 20px;
 }
 
-.category-list li {
-  padding: 5px 0;
+.category .category-list li {
+  padding: 5px;
   font-size: 13px;
   color: #555;
-  padding: 5px 0;
   list-style: none;
 }
 
@@ -447,7 +441,7 @@ main {
   padding: 10px;
 }
 
-.latest-deal span {
+.latest-deals .latest-deal span {
   font-size: 14px;
   color: #555;
   padding: 5px 0;
@@ -459,7 +453,7 @@ main {
   color: #aaa;
 }
 
-.latest-deal h3 {
+.latest-deals .latest-deal h3 {
   font-size: 16px;
   padding: 5px 0;
 }
@@ -474,7 +468,7 @@ main {
   padding: 35px 0;
 }
 
-.social-media li {
+.main-footer .social-media li {
   display: inline;
   margin: 0 7px;
   font-family: 'Chakra Petch', sans-serif;
@@ -487,7 +481,7 @@ main {
   flex-wrap: wrap;
 }
 
-.social-media-links li {
+.social-media .social-media-links li {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -521,6 +515,10 @@ main {
 
 .credits img {
   height: 12px;
+}
+
+.fixed-nav > div > i:nth-of-type(2) {
+  display: none;
 }
 
 @media only screen and (max-width: 1024px) {
