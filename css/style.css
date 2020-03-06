@@ -17,7 +17,6 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 100%;
 }
 
 header img{
@@ -85,7 +84,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 0.5fr;
   grid-gap: 10px;
-  margin-top: 127px;
+  margin: 120px 10px 10px;
 }
 
 .main-news {
@@ -360,7 +359,7 @@ main {
 }
 
 .category-header {
-  height: 96px;
+  min-height: 96px;
   padding: 10px;
   background-color: #FFECE8;
   color: #F42;
@@ -370,6 +369,7 @@ main {
   float: right;
   height: 96px;
   margin: -10px;
+  padding: 0 0 20px 20px;
 }
 
 .category-header span {
@@ -470,12 +470,13 @@ main {
 
 .social-media {
   background-color:#131313;
-  height: 161px;
+  /* height: 161px; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   color: #AAA;
+  padding: 35px 0;
 }
 
 .social-media li {
@@ -486,6 +487,9 @@ main {
 
 .social-media ul {
   margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .social-media-links li {
@@ -505,11 +509,12 @@ main {
 
 .credits {
   background-color: #000;
-  height: 97px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #AAA;
+  flex-wrap: wrap;
+  padding: 39px 0;
 }
 
 .credits span:nth-of-type(3){
@@ -599,6 +604,7 @@ main {
   .main-section div {
       grid-row: 1;
       height: 33%;
+      margin-bottom: 10px;
   }
 
   .main-news h1 {
