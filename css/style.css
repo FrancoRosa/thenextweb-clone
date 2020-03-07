@@ -531,6 +531,7 @@ main {
   header img:first-of-type {
     display: block;
     float: left;
+    width: 106px;
     height: 80px;
   }
 
