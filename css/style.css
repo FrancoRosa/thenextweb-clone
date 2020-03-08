@@ -430,15 +430,11 @@ main {
 .latest-deals-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  grid-gap: 20px;
 }
 
 .latest-deal img {
   width: 100%;
-}
-
-.latest-deal {
-  padding: 10px;
 }
 
 .latest-deals .latest-deal span {
