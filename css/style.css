@@ -140,17 +140,13 @@ main {
 .latest-news-title {
   color: #f42;
   font-size: 28px;
-  padding: 0 10px;
+  padding-bottom: 10px;
 }
 
 .latest-news-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
-}
-
-.latest-new-art {
-  padding: 10px;
+  grid-gap: 20px;
 }
 
 .latest-new-art span {
